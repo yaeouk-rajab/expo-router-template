@@ -4,6 +4,12 @@ A starter for an Expo SDK 57 app using expo-router, with a cookie-session login 
 user-supplied server, local auth state, push-notification registration and deep linking, a small
 async hook, and a Jest + Testing Library setup.
 
+## Screenshots
+
+![Server setup, sign in and home](docs/screenshots/overview.png)
+
+_Real screens of this template, not mockups. They were rendered through the Expo web build (`react-native-web`) in Chromium and driven with Playwright, signing in against a running backend that implements the same `/api/v1/auth/login` cookie-session contract. A web render is not a native iOS or Android capture: fonts and chrome differ, and `expo-notifications` has no web implementation, so it was stubbed for the capture and push behaviour is not shown._
+
 ## What is included
 
 - `app/`: expo-router routes. `index` is the auth gate, `server-setup`, `login`, and an `(app)` group
