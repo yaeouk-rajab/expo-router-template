@@ -6,9 +6,9 @@ async hook, and a Jest + Testing Library setup.
 
 ## Screenshots
 
-![Server setup, login and home screens](docs/screenshots/overview.png)
+![Server setup, sign in and home](docs/screenshots/overview.png)
 
-_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+_Real screens of this template, not mockups. They were rendered through the Expo web build (`react-native-web`) in Chromium and driven with Playwright, signing in against a running backend that implements the same `/api/v1/auth/login` cookie-session contract. A web render is not a native iOS or Android capture: fonts and chrome differ, and `expo-notifications` has no web implementation, so it was stubbed for the capture and push behaviour is not shown._
 
 ## What is included
 
