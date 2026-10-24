@@ -4,6 +4,12 @@ A starter for an Expo SDK 57 app using expo-router, with a cookie-session login 
 user-supplied server, local auth state, push-notification registration and deep linking, a small
 async hook, and a Jest + Testing Library setup.
 
+## Screenshots
+
+![Server setup, login and home screens](docs/screenshots/overview.png)
+
+_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+
 ## What is included
 
 - `app/`: expo-router routes. `index` is the auth gate, `server-setup`, `login`, and an `(app)` group
