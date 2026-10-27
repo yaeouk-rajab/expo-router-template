@@ -25,7 +25,7 @@
     "@types/node": "^22.20.5",
     "@types/react": "~19.2.2",
     "eslint": "^9.39.5",
-    "eslint-config-expo": "^57.0.2",
+    "eslint-config-expo": "^58.0.4",
     "expo-modules-core": "~57.0.18",
     "jest": "^30.5.2",
     "jest-expo": "^57.0.5",
