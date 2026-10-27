@@ -2,7 +2,7 @@
 
 # Notes for Claude Code sessions on this repo
 
-- Expo SDK 57. Read the versioned docs (see `AGENTS.md`) before writing code; APIs differ from older SDKs.
+- Expo SDK 58. Read the versioned docs (see `AGENTS.md`) before writing code; APIs differ from older SDKs.
 - `npm install` / `npm ci` need `--legacy-peer-deps` (expo-router optional peers conflict under npm's default
   resolver). A plain `npm install` ERESOLVE error is this known shape, not a real break.
 - If `registry.npmjs.org` returns 403 in a sandbox, confirm with

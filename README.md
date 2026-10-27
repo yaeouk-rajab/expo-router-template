@@ -1,6 +1,6 @@
-# Expo Router starter (Expo SDK 57)
+# Expo Router starter (Expo SDK 58)
 
-A starter for an Expo SDK 57 app using expo-router, with a cookie-session login flow against a
+A starter for an Expo SDK 58 app using expo-router, with a cookie-session login flow against a
 user-supplied server, local auth state, push-notification registration and deep linking, a small
 async hook, and a Jest + Testing Library setup.
 
@@ -64,4 +64,4 @@ GHSA-86w9-cpqp-85rv), with no upstream fix. `scripts/check-npm-audit.mjs` theref
 upstream packages are fixed or you add dated `ALLOWLIST` entries (after confirming they are
 dev-tooling-only). Do not "fix" it with `npm audit fix --force`, which downgrades Expo.
 
-Before writing code, read the versioned Expo docs: https://docs.expo.dev/versions/v57.0.0/ (see `AGENTS.md`).
+Before writing code, read the versioned Expo docs: https://docs.expo.dev/versions/v58.0.0/ (see `AGENTS.md`).
