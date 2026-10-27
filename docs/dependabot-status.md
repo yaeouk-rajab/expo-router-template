@@ -23,6 +23,7 @@ _Last updated: 2026-10-27. Starter template extracted from `pulsewatch-mobile`; 
 ## Time-limited exemptions
 
 - the allowlist in `scripts/check-npm-audit.mjs`, every entry expiring 2026-11-09 (earlier than the source repos' 2026-11-15): `node-forge` GHSA-86w9-cpqp-85rv; `braces` GHSA-vfj7-8cjw-p6xm (both via Expo build tooling, never in the app bundle). After that date the scan fails until each entry is renewed or removed. The scan is not a required check, so merges still work, but re-check each advisory for a fix before then.
+- 2026-10-27: the `node-forge` GHSA-86w9-cpqp-85rv allowlist entry was removed from `scripts/check-npm-audit.mjs`: the lockfile now has node-forge 1.4.2, which `npm audit` no longer reports (the `braces` entry was removed too: `npm audit` no longer reports it). The `zod` entry stays until 2026-11-07: the nested zod 3.25.76 under @expo/cli has no 3.x fix.
 
 ## Notes
 
